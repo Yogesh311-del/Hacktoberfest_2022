@@ -5,15 +5,14 @@ package Hacktoberfest_2022_H9960.JAVA;
 //space : O(N)
 //where N is the size of stack
 
+
 //Name of the contributor : Archith Gandla
 //GitHub Link : https://github.com/Archithgandla
 
 
-
-
 import java.util.*;
  
-public class stack{
+class stack{
     Queue<Integer> q = new LinkedList<Integer>();
      
     // Push operation
@@ -62,8 +61,10 @@ public class stack{
     {
         return q.isEmpty();
     }
- 
-    // Driver program to test above methods
+
+}
+
+public class stack_using_single_queue{
     public static void main(String[] args)
     {
         stack s = new stack();
